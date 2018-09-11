@@ -5,4 +5,15 @@ jQuery(document).ready(function($) {
 		nextArrow: '<button class="slick-arrow-right"><i class="fas fa-chevron-right"></i></button>'
 	});
 
+	$('.contact-button-wrap button').click(function() {
+		$('html, body').animate({
+			scrollTop: $('.contact').position().top
+		}, 300, function() {
+			$('.contact-info-wrap').addClass('animated pulse');
+			setTimeout(function() {
+				$('.contact-info-wrap').removeClass('animated pulse');
+			}, 800);
+		});
+	});
+
 });

@@ -13,9 +13,23 @@ p.lead {
 	font-size: 1.25rem;
 }
 
+p.contact-button-wrap {
+	text-align: center;
+}
+
 a,
 a:visited {
 	color: #f75757;
+}
+
+a:hover {
+	color: #cd4848;
+}
+
+.button {
+	color: #fff;
+	background: #f75757;
+	font-weight: bold;
 }
 
 h1,
@@ -59,6 +73,7 @@ header:before {
 header h1 {
 	margin: 0px;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 
 header h2,
@@ -110,6 +125,8 @@ header h3 {
 
 .product-block h2 {
 	margin-top: 0px;
+	font-size: 1.5rem;
+	text-transform: uppercase;
 }
 
 .pricing-table {
