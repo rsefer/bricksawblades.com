@@ -143,6 +143,10 @@ header h3 {
 	background: #f2f2f2;
 }
 
+.contact h2 {
+	text-transform: uppercase;
+}
+
 .contact-intro {
 	text-align: center;
 }
