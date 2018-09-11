@@ -9,14 +9,23 @@ p {
 	line-height: 1.3;
 }
 
+p.lead {
+	font-size: 1.25rem;
+}
+
+a,
+a:visited {
+	color: #f75757;
+}
+
 h1,
 h2,
 h3 {
 	margin: 1rem 0px;
 }
 
-p.lead {
-	font-size: 1.25rem;
+ul li {
+	margin: 0.5em 0px;
 }
 
 .wrapper {
@@ -110,6 +119,31 @@ header h3 {
 .pricing-table th:last-child,
 .pricing-table td:last-child {
 	text-align: right;
+}
+
+.contact {
+	padding: 2rem 0px;
+	background: #f2f2f2;
+}
+
+.contact-intro {
+	text-align: center;
+}
+
+.contact-footer {
+	padding-top: 4rem;
+	text-align: center;
+}
+
+.contact .ta-logo {
+	display: inline-block;
+}
+
+.contact-footer svg {
+	display: block;
+	margin: 0px auto;
+	width: 100px;
+	height: 81px;
 }
 
 @media screen and (max-width: 1023px) {
