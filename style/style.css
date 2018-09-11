@@ -169,10 +169,6 @@ header h3 {
 		display: flex;
 	}
 
-	.product-handle {
-		margin-top: 6rem;
-	}
-
 	.product-blade .product-images {
 		order: 2;
 	}
